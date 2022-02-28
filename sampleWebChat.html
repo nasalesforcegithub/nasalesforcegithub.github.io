@@ -1,11 +1,11 @@
 
 <html>
 <head>
-	<title>NA45A-InAppChat</title>
+	<title>SDB6-InAppChat</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 </head>
 <body>
-	<h1> NA45A InApp Messaging Chat</h1>
+	<h1> SDB6 InApp Messaging Chat</h1>
   <h2 style="color:blue;"> For Agent: web1@ia.na45a</h2>
 	NO LWR
 <p><a id="editThisPageLink" target="_blank" style="color:blue">Edit this page</a></p>
@@ -17,7 +17,7 @@
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = ''; // For example, enter 'en' or 'en-US'
-
+			embeddedservice_bootstrap.settings.debugMode = true; 
 			embeddedservice_bootstrap.init(
 				'00DSG0000002yOH',
 				'Web_Chat',
